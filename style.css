@@ -5,3 +5,79 @@
 https://www.figma.com/file/pJ3mChVwF5KsMzrULYL6VP/OakTrust-Properties-(Copy)?node-id=35%3A33&mode=dev
 
 Let me know if they have any questions or issues.  */
+
+body {
+  font-family: "Figtree", sans-serif;
+}
+
+/** NAVIGATION **/
+
+.navigation .row {
+  height: 120px;
+}
+
+.nav_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: auto;
+  width: 237px;
+}
+
+.nav a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3aaa35;
+}
+
+.portal {
+  margin-top: 0;
+}
+
+.portal li a {
+  font-weight: 700;
+}
+
+.portal li:not(:last-child) {
+  margin-right: 7px;
+}
+
+/** HERO SECTION **/
+
+.hero {
+  background-color: #004f24;
+  color: #fff;
+  padding: 70px 0 70px 0;
+  text-align: center;
+}
+
+.hero-title {
+  width: 743px;
+}
+
+.images {
+  margin: 50px 20px 50px 20px;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image-container:last-child {
+  margin-right: 0;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
