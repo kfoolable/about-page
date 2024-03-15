@@ -10,6 +10,10 @@ body {
   font-family: "Figtree", sans-serif;
 }
 
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
 /** NAVIGATION **/
 
 .navigation .row {
@@ -62,6 +66,18 @@ body {
 
 .hero-title {
   width: 743px;
+  font-weight: 600;
+}
+
+.hero-title h4 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 26px;
+}
+
+.hero-title h1 {
+  font-size: 60px;
 }
 
 .images {
@@ -80,4 +96,27 @@ body {
 .image-container img {
   width: 100%;
   height: auto;
+}
+
+.bottom-hero {
+  width: 1020px;
+}
+
+.paragraph-1 {
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+.pt {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: end;
+  font-family: "Kalam", sans-serif;
+  color: #3aaa35;
 }
