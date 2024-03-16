@@ -1,0 +1,172 @@
+@media (max-width: 84em) {
+  .com-content h1 {
+    font-size: 34px;
+  }
+
+  .footerc.email {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 75em) {
+  .com-content h1 {
+    font-size: 28px;
+  }
+
+  .com-content a {
+    font-size: 16px;
+  }
+
+  .footerc.email {
+    font-size: 15px;
+  }
+
+  .info.collapse .vid-thumbnail {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .team-container .nav span {
+    font-size: 14px;
+  }
+
+  .quote {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 64em) {
+  .com-content h1 {
+    font-size: 24px;
+  }
+
+  .footerc.num {
+    font-size: 22px;
+  }
+
+  .footerc.email {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 62em) {
+  .info .nav_col .menu li a {
+    font-size: 14px;
+  }
+
+  .portal {
+    font-size: 13px;
+  }
+
+  .number {
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 180px;
+  }
+
+  .team-container h1 {
+    font-size: 44px;
+  }
+
+  .info-top .nav {
+    max-width: 300px;
+  }
+
+  .paragraph-1 {
+    font-size: 24px;
+  }
+
+  .com-content h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 55em) {
+  .navigation {
+    position: relative;
+  }
+
+  .com-content h1,
+  .com-content a {
+    white-space: nowrap;
+  }
+
+  /* .navigation .nav_col .nav li {
+    display: none;
+  } */
+
+  .menu-btn {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .navigation .row {
+    justify-content: space-around;
+  }
+
+  .col-3 {
+    white-space: nowrap;
+  }
+
+  .col-6 {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: translateX(-100%);
+
+    transition: all 0.5s ease;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open.col-6 {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(-10%);
+  }
+
+  .col-6 .nav.menu {
+    flex-direction: column;
+  }
+
+  .hero-title h4 {
+    font-size: 22px;
+  }
+
+  .hero-title h1 {
+    font-size: 48px;
+  }
+
+  .paragraph-1 {
+    font-size: 20px;
+  }
+
+  .pt {
+    font-size: 14px;
+  }
+
+  .team h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 36em) {
+  .team-container {
+    max-width: 500px;
+  }
+}

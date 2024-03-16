@@ -6,6 +6,10 @@ https://www.figma.com/file/pJ3mChVwF5KsMzrULYL6VP/OakTrust-Properties-(Copy)?nod
 
 Let me know if they have any questions or issues.  */
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Figtree", sans-serif;
 }
@@ -59,12 +63,18 @@ h1 {
   margin-top: 0;
 }
 
-.portal li a {
+.portal a {
   font-weight: 700;
+  text-decoration: none;
+  color: #3a3a3a;
 }
 
 .portal li:not(:last-child) {
   margin-right: 7px;
+}
+
+.menu-btn {
+  display: none;
 }
 
 /** HERO SECTION **/
@@ -77,7 +87,7 @@ h1 {
 }
 
 .hero-title {
-  width: 743px;
+  max-width: 743px;
   font-weight: 600;
 }
 
@@ -111,7 +121,7 @@ h1 {
 }
 
 .bottom-hero {
-  width: 1020px;
+  max-width: 1020px;
 }
 
 .paragraph-1 {
@@ -143,6 +153,12 @@ h1 {
 }
 
 .team h1 {
+  color: #004f24;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.team-container h1 {
   color: #3aaa35;
   font-size: 50px;
   font-weight: 600;
@@ -195,8 +211,8 @@ h1 {
 }
 
 .team-container {
-  width: 585px;
-  /* margin: auto; */
+  max-width: 585px;
+  margin: 0 auto;
 }
 
 .close-button {
