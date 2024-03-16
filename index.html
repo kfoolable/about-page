@@ -9,12 +9,14 @@
 
     <!-- Bootstrap CSS -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap Icons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -165,7 +167,7 @@
                   <p class="contact num">(843) 804-9991 Ext. 101</p>
 
                   <a
-                    data-toggle="collapse"
+                    data-bs-toggle="collapse"
                     href="#collapseExample"
                     role="button"
                     aria-expanded="false"
@@ -190,7 +192,7 @@
 
                   <a
                     data-toggle="collapse"
-                    href="#collapseExample"
+                    href="#"
                     role="button"
                     aria-expanded="false"
                     aria-controls="collapseExample"
@@ -214,7 +216,7 @@
 
                   <a
                     data-toggle="collapse"
-                    href="#collapseExample"
+                    href="#"
                     role="button"
                     aria-expanded="false"
                     aria-controls="collapseExample"
@@ -241,7 +243,7 @@
 
                   <a
                     data-toggle="collapse"
-                    href="#collapseExample"
+                    href="#"
                     role="button"
                     aria-expanded="false"
                     aria-controls="collapseExample"
@@ -261,7 +263,7 @@
 
                   <a
                     data-toggle="collapse"
-                    href="#collapseExample"
+                    href="#"
                     role="button"
                     aria-expanded="false"
                     aria-controls="collapseExample"
@@ -280,7 +282,7 @@
                   <p class="contact num">09234</p>
 
                   <a
-                    href="#collapseExample"
+                    href="#"
                     role="button"
                     data-toggle="collapse"
                     aria-expanded="false"
@@ -304,7 +306,7 @@
                   href="#collapseExample"
                   class="close-button"
                   role="button"
-                  data-toggle="collapse"
+                  data-bs-toggle="collapse"
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
@@ -384,8 +386,101 @@
         </div>
       </section>
 
-      <section class="community"></section>
-      <section class="footer"></section>
+      <section class="community">
+        <div class="com-container">
+          <img
+            src="assets/OakTrust-community.jpg"
+            alt="OakTrust Properties
+          Community"
+            class="img-fluid"
+          />
+        </div>
+
+        <div class="com-content d-flex align-items-center">
+          <h1 class="font-weight-bold">
+            We're <span class="rooted">Rooted</span> in Community.
+          </h1>
+
+          <a href="#" class="btn btn-success ms-5">Learn More</a>
+        </div>
+      </section>
+
+      <section class="footer">
+        <div class="container-fluid mb-6">
+          <div class="row d-flex justify-content-between">
+            <div class="col-sm-3 fc-1">
+              <img
+                src="assets/OakTrust-White.png"
+                alt="OakTrust Properties Logo"
+                class="img-fluid mb-5"
+              />
+
+              <h4 class="footerc num mb-3">(843) 804-9991</h4>
+              <h5 class="footerc email">info@oaktrustproperties.com</h5>
+            </div>
+
+            <div class="col-auto fc-2">
+              <h3>Hours</h3>
+
+              <p class="fc2-t">Remote Team</p>
+              <p>Monday – Friday</p>
+              <p>8am – 5pm</p>
+
+              <p class="fc2-t">Office Team</p>
+              <p>Monday – Friday</p>
+              <p>By Appointment Only</p>
+            </div>
+            <div class="col-auto fc-3">
+              <h3>Contact Us</h3>
+
+              <div class="fc-btns d-flex flex-column">
+                <button class="btn btn-success">General Inquiries</button>
+                <button class="btn btn-success">Rental Services</button>
+                <button class="btn btn-success">Owner Services</button>
+              </div>
+            </div>
+            <div class="col-auto fc-4">
+              <h3>Portals</h3>
+
+              <div class="fc-btns d-flex flex-column">
+                <button class="btn btn-success">Owner Login</button>
+                <button class="btn btn-success">Renter Login</button>
+              </div>
+            </div>
+            <div class="col-auto">
+              <h3>Social</h3>
+
+              <div class="socials d-flex justify-content-between">
+                <a class="soclal-link" href="#"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a class="social-link" href="#"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a class="social-link" href="#"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a class="social-link" href="#"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a class="social-link" href="#"
+                  ><i class="bi bi-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-note text-center">
+          <p class="lh-lg">
+            OakTrust Properties is committed to ensuring that its website is
+            accessible to people with disabilities. All the pages on our website
+            will meet W3C WAI's Web Content Accessibility Guidelines 2.0, Level
+            A conformance. Any issues should be reported to email@email.com.
+            Website Accessibility Policy
+          </p>
+        </div>
+      </section>
     </main>
 
     <!-- Optional JavaScript -->
@@ -396,13 +491,13 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
   </body>

@@ -196,7 +196,7 @@ h1 {
 
 .team-container {
   width: 585px;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .close-button {
@@ -237,4 +237,111 @@ h1 {
 .qna span {
   font-weight: bold;
   color: #004f24;
+}
+
+/** COMMUNITY **/
+.community {
+  overflow: hidden;
+  position: relative;
+}
+
+.com-container {
+  font-family: "Raleway", sans-serif;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.com-container img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.com-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(62, 62, 62, 0.7);
+}
+
+.com-content {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.com-content h1 {
+  margin: 0;
+}
+
+.rooted {
+  font-family: "Kalam", sans-serif;
+}
+
+.com-content a {
+  font-size: 18px;
+  background-color: #3aaa35;
+  border-radius: 40px;
+  height: 40px;
+}
+
+/** FOOTER **/
+.footer {
+  background-color: #004f24;
+  color: #fff;
+  padding: 90px 120px 90px 120px;
+}
+
+.footerc.num,
+.footerc.email {
+  font-weight: 700;
+}
+
+.footer h3 {
+  font-size: 30px;
+  margin-bottom: 1.5rem;
+}
+
+.fc-1 img {
+  width: 200px;
+}
+
+.fc-2 {
+  font-size: 17px;
+}
+
+.fc-2 p {
+  margin-bottom: 5px;
+}
+
+.fc-2 .fc2-t {
+  color: #3aaa35;
+  font-weight: 700;
+}
+
+.fc-btns button {
+  margin-bottom: 1rem;
+  font-size: 18px;
+  background-color: #3aaa35;
+  border-radius: 40px;
+  height: 40px;
+}
+
+.socials {
+  text-decoration: none;
+  list-style-type: none;
+  gap: 15px;
+}
+
+.socials .bi {
+  color: #fff;
 }
