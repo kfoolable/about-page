@@ -84,7 +84,12 @@
 }
 
 @media (max-width: 55em) {
+  html {
+    overflow-x: hidden;
+  }
+
   .navigation {
+    /* position: relative; */
     position: relative;
   }
 
