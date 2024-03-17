@@ -77,6 +77,10 @@ h1 {
   display: none;
 }
 
+.menu-btn .bi {
+  color: #004f24;
+}
+
 /** HERO SECTION **/
 
 .hero {
